@@ -1,0 +1,44 @@
+/* TEAM */
+	Chef: Ricardo Castañeda
+	Contact: ricardo.castaneda@frontcrush.com
+	Twitter: 
+	From: Perú
+
+	Front-end developer: Ricardo Castañeda
+	Twitter: 
+	From: Perú
+
+	UI developer: 
+	Twitter: 
+	From:
+
+	One eyed illustrator: 
+	Twitter: 
+	From:
+
+	Standard 
+	Twitter:
+	From:Barcelona, Catalonia, Spain
+
+	Web designer: 
+	Twitter: 
+	From:
+
+/* THANKS */
+
+	(First) EN Translator: 
+	Twitter:
+	From: 
+
+	CA Translator:
+	Twitter: @evaac
+	From:Barcelona, Catalonia, Spain
+
+	
+		
+
+/* SITE */
+	Last update:
+	Language: Castellano
+	Doctype:HTML5
+	IDE: Vim, Bootstrap3, jQuery, html jade
