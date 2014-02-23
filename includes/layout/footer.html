@@ -14,6 +14,16 @@
 <Development></Development>
 -->
 <script src="core/libraries/holder.js"> </script><script> Holder.add_theme("bright", {background:"orange", foreground:"#aaa", size:11, font: "Monaco"})</script>
+<script>
+  Holder.invisible_error_fn = function(fn){
+      return function(el){
+          setTimeout(function(){
+              fn.call(this, el)
+          }, 10)
+      }
+  }
+</script>
+<!-- Holder.invisible_error_fn fix for error on hidden images in Bootstrap Carousel-->
 <!-- https://github.com/imsky/holder-->
 <!-- <img src="holder.js/200x300/sky"> sky, vine, lava, gray, industrial, and social-->
 <!-- custom: Holder.add_theme("thumbnail", { background: "#fff", text: "Thumbnail" })-->
