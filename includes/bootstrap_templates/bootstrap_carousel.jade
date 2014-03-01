@@ -1,0 +1,63 @@
+
+
+
+#region-photos-slider.region
+  #carousel-generic.carousel.slide
+    .carousel-inner
+      .item.active
+        img(src='img/photos-page/img-photo-slide-1.jpg')
+        .carousel-caption.
+          Texto
+  
+      .item
+        img(src='img/photos-page/img-photo-slide-2.jpg')
+        .carousel-caption.
+          Texto
+  
+      .item
+        img(src='img/photos-page/img-photo-slide-3.jpg')
+        .carousel-caption.
+          Texto
+
+      .item
+        img(src='img/photos-page/img-photo-slide-4.jpg')
+        .carousel-caption.
+          Texto
+  
+      .item
+        img(src='img/photos-page/img-photo-slide-5.jpg')
+        .carousel-caption.
+          Texto
+
+      .item
+        img(src='img/photos-page/img-photo-slide-6.jpg')
+        .carousel-caption.
+          Texto
+  
+
+  
+    ol.carousel-indicators
+      li.active(data-target='#carousel-generic', "data-slide-to"='0')
+        img(src = 'img/photos-page/img-photo-slide-1.jpg')
+      li(data-target='#carousel-generic', "data-slide-to"='1')
+        img(src = 'img/photos-page/img-photo-slide-2.jpg')
+      li(data-target='#carousel-generic', "data-slide-to"='2')
+        img(src = 'img/photos-page/img-photo-slide-3.jpg')
+      li(data-target='#carousel-generic', "data-slide-to"='3')
+        img(src = 'img/photos-page/img-photo-slide-4.jpg')
+      li(data-target='#carousel-generic', "data-slide-to"='4')
+        img(src = 'img/photos-page/img-photo-slide-5.jpg')
+      li(data-target='#carousel-generic', "data-slide-to"='5')
+        img(src = 'img/photos-page/img-photo-slide-6.jpg')
+  
+
+  
+  
+    a.left.carousel-control(href='#carousel-generic', data-slide='prev')
+      img(src='img/arrow-left.png')
+  
+    a.right.carousel-control(href='#carousel-generic', data-slide='next')
+      img(src='img/arrow-right.png') 
+
+
+
